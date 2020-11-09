@@ -1,0 +1,106 @@
+To change user name:
+git config --global user.name Atharva
+
+To change user email:
+git config --global user.email atharvaswami@gmail.com
+
+To check user name:
+git config --global user.name
+
+To check user email:
+git config --global user.email 
+
+To open VS Code:
+code .
+
+To initialize git repository:
+git init
+
+To display hidden folders also:
+git -lart
+
+To check current status:
+git status
+
+To commit the changes:
+git commit                                        // opens vim editor too
+git commit -m "Commit Title or Name or Comments"  // doesn't open vim editor
+
+To create a file:
+touch filename.extension
+
+To add all one file in staging area:
+git add filename.extension
+
+To add all the files in staging area:
+git add -A
+
+To match the current file(s) to the last commit:
+git checkout filename.extension         // for single file
+git checkout -f                         // for all files
+
+To check all the commits:
+git log
+git log -p -number_of_commits
+
+To compare the working tree to stagging area:
+git diff
+
+To compare stagging area to last commit:
+git diff --staged
+
+To skip the stagging area and directly commit:(Not recommended)
+git commit -a -m "Comment or Message"
+
+To remove a file from stagging area only:
+git rm --cached filename.extension 
+
+To delete a file completely:
+git rm filename.extension 
+
+To get small summary status:
+git status -s
+
+To ignore the files store its name in:
+.gitignore
+
+To add a new branch:
+git branch branch_name
+
+To display all branches:
+git branch
+
+To match/switch the current branch with/to another branch:
+git checkout another_branch
+
+To merge the current branch with main branch:
+git merge current_branch_name
+
+To create new branch and switch to that branch:
+git checkout -b branch_name
+
+To host our local repository:
+git remote add origin url
+
+To get the names of all remotes:
+git remote
+
+To check fetch and push urls:
+git remote -v
+
+To push master branch to the origin remote:
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
