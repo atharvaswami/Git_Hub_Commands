@@ -91,16 +91,9 @@ git remote -v
 To push master branch to the origin remote:
 git push -u origin master
 
+To push to the current branch:
+git push
 
-
-
-
-
-
-
-
-
-
-
-
+To clone a repository:
+git clone url
 
