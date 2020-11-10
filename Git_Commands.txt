@@ -17,7 +17,7 @@ To initialize git repository:
 git init
 
 To display hidden folders also:
-git -lart
+ls -lart
 
 To check current status:
 git status
