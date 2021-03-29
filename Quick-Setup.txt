@@ -1,13 +1,13 @@
-# create a new repository on the command line
-echo "Repository-Name" >> README.md <br>
-git init <br>
-git add README.md <br>
-git commit -m "first commit" <br>
-git branch -M main <br>
-git remote add origin url <br>
-git push -u origin main <br>
+1. create a new repository on the command line
+  echo "Repository-Name" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin url
+  git push -u origin main
 
-# push an existing repository from the command line
-git remote add origin url <br>
-git branch -M main <br>
-git push -u origin main <br>
+2. push an existing repository from the command line
+  git remote add origin url
+  git branch -M main
+  git push -u origin main
